@@ -627,14 +627,14 @@ transition: color 250ms var(--timing-function);
 .button-footer:active {
 	color: var(--primary-text-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	
 }
 .icon-send {
 margin-left: 10px;
-fill: rgba(255, 255, 255, 1);
+fill: currentColor;
 background-color: var(--accent-color);
-transition: background-color 250ms var(--timing-function);
+transition: background-color 250ms var(--timing-function),fill 250ms var(--timing-function);
 }
-
 	
 /* Портфоліо */
 .filter {
