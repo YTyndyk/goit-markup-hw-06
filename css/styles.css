@@ -258,7 +258,46 @@ transition: transform 250ms var(--timing-function), opasity 250ms var(--timing-f
 .modal-icon {
 	fill: rgba(0, 0, 0, 1);
 }
+.modal-form {
+	width: 448px;
+	outline: 1px solid tomato;
+	margin-left: auto;
+	margin-right: auto;
 
+	margin-top: 40px;
+
+}
+.modal-form-field {
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 30px;
+}
+.modal-form-field label {
+	margin-bottom: 4px;
+}
+.feedback {
+color: var(--title-color);
+font-weight: 700;
+font-size: 20px;
+line-height: 1.15;
+text-align: center;
+margin-bottom: 12px;
+	
+}
+.form-input {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+}
+.modal-link {
+	color: var(--accent-color);
+}
+.agreement {
+	margin-bottom: 30px;
+}
 /* секції */
 .section {
 	padding-top: 94px;
